@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Profile Card</title>
+    
+    <style>
+        body{
+            background-color: #C7CAEA;
+        }
+        .profile{
+            background-color: orange;
+            width: 400px;
+            margin: 30px auto;
+        }
+        
+        
+        .image{
+            background-color: #FFC6CA;
+            height: 120px;
+            position: relative;
+        }
+
+        .user{
+            width: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .content{
+            text-align: center;
+            padding-top: 60px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .social{
+            /* display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+            padding-right: 30px; */
+            text-align: center;
+            padding: 10px;
+            background-color: #6676D1;
+            position: relative;
+        }
+
+        i{
+            margin: 0 15px;
+        }
+        .arrow{
+            /* background-color: red; */
+            display: inline-block;
+            /* width: 20px;
+            height: 20px; */
+            border: 20px solid;
+            border-top-color: transparent; 
+            border-bottom-color: #6676D1; 
+            border-left-color: transparent; 
+            border-right-color: transparent; 
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+    
+    <!-- <link rel="stylesheet" type="text/css" href="fontawesome6/css/all.css"> -->
+    <script src="https://kit.fontawesome.com/47705e6fe1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="profile">
+        <div class="image">
+            <img src="https://scontent.famd4-1.fna.fbcdn.net/v/t1.6435-9/61168548_2247479328662854_6085117808230793216_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=kEakjAZPaH0AX-QTUI4&_nc_ht=scontent.famd4-1.fna&oh=00_AfBDmRk-eq37aVjn134pTISc2EzHYMXTPnCs9w-w4r_LaA&oe=647AF6B3" alt="photo" class="user">
+        </div>
+        
+        <div class="content">
+            <h1>Akshay Gupta</h1>
+            <p>Co-owner of Gupta motors and Sugar Daddy of my Nupur Sardana</p>
+        </div>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/akki.hangman" target="_blank"><i class="fa-brands fa-facebook" class="icon"></i></a>
+            <a href="https://www.instagram.com/akshaygupta6961/" target="_blank"><i class="fa-brands fa-instagram" class="icon"></i></a>
+            <a class="whatsapp" href="https://wa.me/+919038134822" target="_blank"><i class="fa-brands fa-whatsapp" class="icon"></i></a>
+            <a class="phone" href="tel:+91 9038134822"><i class="fa-solid fa-phone" class="icon"></i></a>
+            <span class="arrow"></span>   
+        </div>
+    </div>
+</body>
+</html>
